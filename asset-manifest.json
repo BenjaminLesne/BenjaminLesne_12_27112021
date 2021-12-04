@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/static/js/main.4377aece.chunk.js",
-    "main.js.map": "/static/js/main.4377aece.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a4a1dbb1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a4a1dbb1.js.map",
-    "static/js/2.b4c574ec.chunk.js": "/static/js/2.b4c574ec.chunk.js",
-    "static/js/2.b4c574ec.chunk.js.map": "/static/js/2.b4c574ec.chunk.js.map",
-    "static/js/3.f24340db.chunk.js": "/static/js/3.f24340db.chunk.js",
-    "static/js/3.f24340db.chunk.js.map": "/static/js/3.f24340db.chunk.js.map",
+    "main.css": "/static/css/main.d8b87584.chunk.css",
+    "main.js": "/static/js/main.487ed421.chunk.js",
+    "main.js.map": "/static/js/main.487ed421.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.22056303.js",
+    "runtime-main.js.map": "/static/js/runtime-main.22056303.js.map",
+    "static/js/2.a6f74a00.chunk.js": "/static/js/2.a6f74a00.chunk.js",
+    "static/js/2.a6f74a00.chunk.js.map": "/static/js/2.a6f74a00.chunk.js.map",
+    "static/js/3.52ddd1db.chunk.js": "/static/js/3.52ddd1db.chunk.js",
+    "static/js/3.52ddd1db.chunk.js.map": "/static/js/3.52ddd1db.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.b4c574ec.chunk.js.LICENSE.txt": "/static/js/2.b4c574ec.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/main.d8b87584.chunk.css.map": "/static/css/main.d8b87584.chunk.css.map",
+    "static/js/2.a6f74a00.chunk.js.LICENSE.txt": "/static/js/2.a6f74a00.chunk.js.LICENSE.txt",
+    "static/media/BikeIcon.fe885ecd.svg": "/static/media/BikeIcon.fe885ecd.svg",
+    "static/media/DumbbellIcon.9d22814b.svg": "/static/media/DumbbellIcon.9d22814b.svg",
+    "static/media/SportSeeLogo.83741486.svg": "/static/media/SportSeeLogo.83741486.svg",
+    "static/media/SwimIcon.bc12b705.svg": "/static/media/SwimIcon.bc12b705.svg",
+    "static/media/ZenIcon.76760efc.svg": "/static/media/ZenIcon.76760efc.svg",
+    "static/media/apple.95581ba1.svg": "/static/media/apple.95581ba1.svg",
+    "static/media/cheeseburger.18f60e0e.svg": "/static/media/cheeseburger.18f60e0e.svg",
+    "static/media/chicken.ffbc3b88.svg": "/static/media/chicken.ffbc3b88.svg",
+    "static/media/energy.25fef86e.svg": "/static/media/energy.25fef86e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4a1dbb1.js",
-    "static/js/2.b4c574ec.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.4377aece.chunk.js"
+    "static/js/runtime-main.22056303.js",
+    "static/js/2.a6f74a00.chunk.js",
+    "static/css/main.d8b87584.chunk.css",
+    "static/js/main.487ed421.chunk.js"
   ]
 }
