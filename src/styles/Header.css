@@ -1,0 +1,13 @@
+.Header__greetings {
+  font-size: 48px;
+  margin: 0;
+}
+
+.Header__message {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.Header__user-name {
+  color: red;
+}

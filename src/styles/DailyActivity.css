@@ -1,0 +1,49 @@
+.DailyActivity {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.DailyActivity__header {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 0px 50px 0 20px;
+}
+
+.DailyActivity__title {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.DailyActivity__legend {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.DailyActivity__item-legend {
+  color: #74798c;
+}
+
+.DailyActivity__item-legend::before {
+  content: "\2022";
+  color: #282d30;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.DailyActivity__item-legend--red::before {
+  color: #e60000;
+  margin-left: 50px;
+}
+
+.DailyActivity__graph-wrapper {
+  flex: 4;
+}
+
+.DailyActivity__graph {
+  display: flex;
+}

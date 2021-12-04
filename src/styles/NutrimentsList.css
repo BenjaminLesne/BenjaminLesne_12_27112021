@@ -1,0 +1,74 @@
+.NutrimentsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.NutrimentsList__nutriment {
+  background-color: #fbfbfb;
+  display: flex;
+  padding: 32px;
+  border-radius: 5px;
+  height: 125px;
+  max-width: 260px;
+}
+
+.NutrimeentsList__nutriment-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 25px;
+}
+
+.NutrimentsList__nutriment-logo-wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.NutrimentsList__nutriment:first-child .NutrimentsList__nutriment-logo-wrapper {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.NutrimentsList__nutriment:nth-child(2)
+  .NutrimentsList__nutriment-logo-wrapper {
+  background-color: rgba(74, 184, 255, 0.1);
+}
+.NutrimentsList__nutriment:nth-child(3)
+  .NutrimentsList__nutriment-logo-wrapper {
+  background-color: rgba(253, 204, 12, 0.1);
+}
+
+.NutrimentsList__nutriment:last-child .NutrimentsList__nutriment-logo-wrapper {
+  background-color: rgba(253, 81, 129, 0.1);
+}
+
+.NutrimentsList__nutriment-quantity-wrapper {
+  font-weight: 700;
+  font-size: 20px;
+  color: #282d30;
+}
+
+.NutrimentsList__nutriment-name {
+  color: #74798c;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1375px) {
+  .NutrimentsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fill, 125px);
+    gap: 20px;
+  }
+
+  .NutrimentsList__nutriment {
+    margin: 20px 0;
+  }
+}
