@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Module: NutrimentsList</title>
+    <title>JSDoc: Source: Components/BarChartShape.jsx</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,181 +17,34 @@
 
 <div id="main">
 
-    <h1 class="page-title">Module: NutrimentsList</h1>
+    <h1 class="page-title">Source: Components/BarChartShape.jsx</h1>
 
     
 
 
 
-
-<section>
-
-<header>
     
-        
-            
-        
-    
-</header>
-
-<article>
-    <div class="container-overview">
-    
-        
-            <div class="description"><p>User nutriments intake list</p></div>
-        
-
-        
-            
-
-
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>data</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">object</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>data = USER_MAIN_DATA.keyData param in <a href="module-Dashboard.html"><code>module:Dashboard</code></a></p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Components_NutrimentsList.jsx.html">Components/NutrimentsList.jsx</a>, <a href="Components_NutrimentsList.jsx.html#line10">line 10</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</article>
-
-</section>
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * return a custom bar shape path see
+ * {@Link https://recharts.org/en-US/examples/CustomShapeBarChart}
+ *
+ * @module BarChartShape
+ */
+
+const BarChartShape = ({ fill, x, y, width, height }) => {
+  const path = `m ${x} ${y + height} h ${width} v -${height} c -3 -9 ${
+    (-15 / 17) * width
+  } ${(-8 / 17) * width} ${(-17 / 17) * width} 0`;
+
+  return &lt;path d={path} stroke="none" fill={fill} />;
+};
+
+export default BarChartShape;
+</code></pre>
+        </article>
+    </section>
 
 
 

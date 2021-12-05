@@ -6,6 +6,11 @@ import getUserData from "../Service/getUserData.js";
 
 import "../styles/ProfilePage.css";
 
+/**
+ * ProfilePage Component return HTML
+ * @module ProfilePage
+ */
+
 const ProfilePage = () => {
   const [data, setData] = useState({});
   const [isLoaded, setIsLoaded] = useState(false);
