@@ -25,4 +25,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 6- You can now use this project in the port that you chose http://localhost:YourPortExcept3000
 
-7-To see the documentation go to projectFolder/docs and right on index.html and select "Open with Live server". If you don't have Live server extension download it [here]("https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"). It should open a new tab in your browser with the documentation page.
+7-To see the documentation go to projectFolder/docs and right on index.html and select "Open with Live server". If you don't have Live server extension download it [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It should open a new tab in your browser with the documentation page.
